@@ -15,9 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Oracle.DataAccess">
-      <HintPath>..\..\..\..\..\..\..\..\oraclexe\app\oracle\product\11.2.0\server\odp.net\bin\2.x\Oracle.DataAccess.dll</HintPath>
-    </Reference>
     <Reference Include="Oracle.Database.Extensions">
       <HintPath>..\..\..\..\..\..\..\..\APP\sim55\product\21c\dbhomeXE\ODE.NET\bin\4\Oracle.Database.Extensions.dll</HintPath>
     </Reference>
