@@ -1,7 +1,7 @@
 # Wpf_Study
 
-## WpfOracleTest
+### WpfOracleTest
 - MSSQL 연동
 
-## WpfBasics
+### WpfBasics
 - Border, Grid, StackPanel, TextBlock, TextBox, ComboBox
