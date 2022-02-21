@@ -24,6 +24,7 @@
                         </Setter.Value>
                     </Setter>
                 </Style>
+                
             </TreeView.Resources>
         </TreeView>
     </Grid>

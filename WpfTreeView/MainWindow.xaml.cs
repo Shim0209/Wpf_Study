@@ -56,8 +56,13 @@ namespace WpfTreeView
 
         #endregion
 
-        #region Folder Expanede
+        #region Folder Expanded
 
+        /// <summary>
+        /// When a folder is expanded, find the sub folders/files
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Folder_Expanded(object sender, RoutedEventArgs e)
         {
             #region Initial Checks
@@ -117,6 +122,39 @@ namespace WpfTreeView
             #endregion
 
             #region Get Files
+
+            // Create a blank list for files
+            var files = new List<string>();
+
+            // 폴더로부터 파일 가져오기
+            // ignoring any issues doing so
+            try
+            {
+                var fs = Directory.GetFiles(fullPath);
+
+                if (fs.Length > 0)
+                {
+                    files.AddRange(fs);
+                }
+            }
+            catch { }
+
+            // For each file
+            files.ForEach(filePath =>
+            {
+                // Create 각 파일 아이템
+                var subItem = new TreeViewItem()
+                {
+                    // Set header as file name
+                    // Header = Path.GetFileName(filePath),
+                    Header = GetFileFolderName(filePath),
+                    // And tag as full path
+                    Tag = filePath
+                };
+
+                // Add this item to the parent
+                item.Items.Add(subItem);
+            });
 
             #endregion
         }
