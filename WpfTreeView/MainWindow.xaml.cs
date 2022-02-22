@@ -162,6 +162,7 @@ namespace WpfTreeView
 
         #endregion
 
+        #region Helpers
         /// <summary>
         /// Find the file or folder name from a full path
         /// </summary>
@@ -190,5 +191,6 @@ namespace WpfTreeView
             // Return the name after last backslash
             return path.Substring(lastIndex + 1);
         }
+        #endregion
     }
 }
