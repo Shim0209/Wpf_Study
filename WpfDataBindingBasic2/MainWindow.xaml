@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfDataBindingBasic2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <StackPanel>
+        Title="MainWindow" Height="300" Width="300">
+    <StackPanel Margin="0,0,0,-6">
         <!-- Source -->
         <TextBox Name="txt1" Margin="24" />
         
@@ -20,5 +20,15 @@
                 <Binding ElementName="txt1" Path="Text" />
             </Label.Content>
         </Label>
+        
+        <!-- C# 코드로 구현한 바인딩 예제 -->
+        <Label Name="label" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="2"/>
+        
+        <!-- Binding Target -->
+        <!-- UpdateSourceTrigger는 타겟이 소스를 갱신하는 타이밍을 지정 -->
+        <!-- TaxtBox인 경우 LostFocus가 기본이므로 값이 바뀔때마다 갱신하기 위해 PropertyChanged로 설정 -->
+        <!-- TextBox의 값을 바꾸면 라벨값이 갱신되는 TwoWay바인딩이 기본적으로 설정, 만약 OneWay로 설정시 TextBox의 값을 수정해도 라벨의 Content 프로퍼티는 갱신되지 않음 -->
+        <TextBox Margin="24" Text="{Binding ElementName=label2, Path=Content, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Name="label2" Content="WPF정복!!" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="2"/>
     </StackPanel>
 </Window>
