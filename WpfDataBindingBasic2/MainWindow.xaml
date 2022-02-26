@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfDataBindingBasic2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDataBindingBasic2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <!-- Source -->
+        <TextBox Name="txt1" Margin="24" />
+        
+        <!-- Target -->
+        <!-- Source={x:Reference txt1}대신 ElementName=txt1가능 -->
+        <Label Content="{Binding Source={x:Reference txt1}, Path=Text}" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="2"/>
+        
+    </StackPanel>
+</Window>
