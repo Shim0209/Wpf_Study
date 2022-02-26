@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfDataBindingBasic", "WpfD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataBindingBasic2", "WpfDataBindingBasic2\WpfDataBindingBasic2.csproj", "{07E90D9A-6103-490B-B367-083CC938ACCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataContext", "WpfDataContext\WpfDataContext.csproj", "{17956AD1-AA9A-4293-9200-B66520E60AAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{07E90D9A-6103-490B-B367-083CC938ACCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07E90D9A-6103-490B-B367-083CC938ACCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07E90D9A-6103-490B-B367-083CC938ACCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17956AD1-AA9A-4293-9200-B66520E60AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17956AD1-AA9A-4293-9200-B66520E60AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17956AD1-AA9A-4293-9200-B66520E60AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17956AD1-AA9A-4293-9200-B66520E60AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
