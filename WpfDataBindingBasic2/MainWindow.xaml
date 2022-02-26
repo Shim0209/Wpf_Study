@@ -13,6 +13,12 @@
         <!-- Target -->
         <!-- Source={x:Reference txt1}대신 ElementName=txt1가능 -->
         <Label Content="{Binding Source={x:Reference txt1}, Path=Text}" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="2"/>
-        
+    
+        <!-- 프로퍼티 엘리먼트를 사용할 수 있다. -->
+        <Label HorizontalAlignment="Center">
+            <Label.Content>
+                <Binding ElementName="txt1" Path="Text" />
+            </Label.Content>
+        </Label>
     </StackPanel>
 </Window>
