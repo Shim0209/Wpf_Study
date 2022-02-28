@@ -15,3 +15,9 @@
 - TreeView, Style, DataTemplate
 - 로컬 폴더, 파일 접근 및 사용법
 - Binding, Converter
+
+### WpfDataBindingBasic
+- 1. DataContext
+- 2. C# 코드 바인딩, UI 객체간 바인딩
+- 3. INottifyPropertyChanged 인터페이스, PropertyChanged 이벤트를 이용한 바인딩
+- 4. ICommand, INotyfiPropertyChanged 인터페이스를 이용한 바인딩

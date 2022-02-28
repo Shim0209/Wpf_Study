@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 /// <summary>
-/// INotifyPropertyChanged 인터페이스, PropertyChanged 이벤트를
+/// WPF INotifyPropertyChanged 인터페이스, PropertyChanged 이벤트를
 /// 이용한 데이터 바인딩
 /// 
 /// 데이터바인딩에서 소스 객체를 UI 컨트롤 일수도 있지만 C#의 일반
