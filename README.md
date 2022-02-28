@@ -17,7 +17,7 @@
 - Binding, Converter
 
 ### WpfDataBindingBasic
-- 1. DataContext
-- 2. C# 코드 바인딩, UI 객체간 바인딩
-- 3. INottifyPropertyChanged 인터페이스, PropertyChanged 이벤트를 이용한 바인딩
-- 4. ICommand, INotyfiPropertyChanged 인터페이스를 이용한 바인딩
+1. DataContext
+2. C# 코드 바인딩, UI 객체간 바인딩
+3. INotifyPropertyChanged 인터페이스, PropertyChanged 이벤트를 이용한 바인딩
+4. ICommand, INotifyPropertyChanged 인터페이스를 이용한 바인딩
