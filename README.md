@@ -21,3 +21,4 @@
 2. C# 코드 바인딩, UI 객체간 바인딩
 3. INotifyPropertyChanged 인터페이스, PropertyChanged 이벤트를 이용한 바인딩
 4. ICommand, INotifyPropertyChanged 인터페이스를 이용한 바인딩
+5. ICommand 간단 실습
