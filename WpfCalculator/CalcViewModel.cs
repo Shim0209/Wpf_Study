@@ -44,12 +44,17 @@ namespace WpfCalculator
                 if (inputString != value)
                 {
                     inputString = value;
-                    OnPropertyChanged("InputString");
-                    if(value != "")
+
+                    // UI에 연결된게 없는데 왜 여기서 알려준거지??
+                    //OnPropertyChanged("InputString");
+
+                    // 이 조건은 도대체 왜 넣은거지??
+                    /*if(value != "")
                     {
                         // 숫자를 여러개 입력하면 계속 화면에 출력하기 위해
                         DisplayText = value;
-                    }
+                    }*/
+                    DisplayText = value;
                 }
             }
         }

@@ -119,10 +119,10 @@ namespace WpfCalculator
                 c.InputString = ""; 
             }
             // 이거 도대체 뭐임 ??????????????
-            else if(c.InputString == "" && op == "-")
+            /*else if(c.InputString == "" && op == "-")
             {
                 c.InputString = "-";
-            }
+            }*/
         }
     }
 
