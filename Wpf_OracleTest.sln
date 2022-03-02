@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfDataBindingBasic4", "Wpf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfDataBindingBasic5", "WpfDataBindingBasic5\WpfDataBindingBasic5.csproj", "{19B0E568-F7E3-47BB-A5CB-B6C64A3E4CD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListCollectionView", "WpfListCollectionView\WpfListCollectionView.csproj", "{F55AAEAB-BDA5-4C8B-BD95-861E7ECB3BE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfListCollectionView", "WpfListCollectionView\WpfListCollectionView.csproj", "{F55AAEAB-BDA5-4C8B-BD95-861E7ECB3BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalculator", "WpfCalculator\WpfCalculator.csproj", "{2B4914C5-BBE6-4A54-AB6B-BD69D2DDF922}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{F55AAEAB-BDA5-4C8B-BD95-861E7ECB3BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F55AAEAB-BDA5-4C8B-BD95-861E7ECB3BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F55AAEAB-BDA5-4C8B-BD95-861E7ECB3BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B4914C5-BBE6-4A54-AB6B-BD69D2DDF922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4914C5-BBE6-4A54-AB6B-BD69D2DDF922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4914C5-BBE6-4A54-AB6B-BD69D2DDF922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4914C5-BBE6-4A54-AB6B-BD69D2DDF922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
