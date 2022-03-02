@@ -78,8 +78,8 @@ namespace WpfCalculator
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public string Op { get; set; }      // Operator
-        public double? Op1 { get; set; }    // Operand1
+        public string Op { get; set; }      // 연산자 저장 필드
+        public double? Op1 { get; set; }    // 첫번째 숫자 저장 필드
 
         // 명령객체
         public ICommand Append { protected set; get; }

@@ -26,3 +26,6 @@
 ### WpfListCollectionView
 - ListCollectionView
 - Collection의 정렬, 필터링, 탐색
+
+### WpfCalculator
+- MVVM패턴을 활용한 간단한 계산기
