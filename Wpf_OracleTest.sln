@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfListCollectionView", "Wp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfCalculator", "WpfCalculator\WpfCalculator.csproj", "{2B4914C5-BBE6-4A54-AB6B-BD69D2DDF922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListBox", "WpfListBox\WpfListBox.csproj", "{D201C646-DB79-4DB4-84E5-49C02C0C0BB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfListBox", "WpfListBox\WpfListBox.csproj", "{D201C646-DB79-4DB4-84E5-49C02C0C0BB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListBox2", "WpfListBox2\WpfListBox2.csproj", "{C4A3D21F-983D-4EA5-9BF3-E541B987946F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{D201C646-DB79-4DB4-84E5-49C02C0C0BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D201C646-DB79-4DB4-84E5-49C02C0C0BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D201C646-DB79-4DB4-84E5-49C02C0C0BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A3D21F-983D-4EA5-9BF3-E541B987946F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A3D21F-983D-4EA5-9BF3-E541B987946F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A3D21F-983D-4EA5-9BF3-E541B987946F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A3D21F-983D-4EA5-9BF3-E541B987946F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
