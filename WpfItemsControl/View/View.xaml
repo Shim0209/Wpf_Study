@@ -1,0 +1,18 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+    x:Class="WpfItemsControl.View.View"
+    x:TypeArguments="sys:String"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfItemsControl.View"
+    mc:Ignorable="d"
+    d:DesignHeight="450" d:DesignWidth="800"
+    Title="View">
+    <Grid>
+        <Border BorderThickness="1,1,1,1" CornerRadius="3,3,3,3" BorderBrush="Black">
+            <TextBlock Text="{Binding NAME}" Margin="5"/>
+        </Border>
+    </Grid>
+</UserControl>

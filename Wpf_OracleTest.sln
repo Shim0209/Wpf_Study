@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfListBox", "WpfListBox\Wp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListBox2", "WpfListBox2\WpfListBox2.csproj", "{C4A3D21F-983D-4EA5-9BF3-E541B987946F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfItemsControl", "WpfItemsControl\WpfItemsControl.csproj", "{806E6B18-A1C3-4B65-BFDA-9306B0B58350}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C4A3D21F-983D-4EA5-9BF3-E541B987946F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4A3D21F-983D-4EA5-9BF3-E541B987946F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4A3D21F-983D-4EA5-9BF3-E541B987946F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806E6B18-A1C3-4B65-BFDA-9306B0B58350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806E6B18-A1C3-4B65-BFDA-9306B0B58350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806E6B18-A1C3-4B65-BFDA-9306B0B58350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806E6B18-A1C3-4B65-BFDA-9306B0B58350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
